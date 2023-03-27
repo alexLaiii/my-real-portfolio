@@ -1,0 +1,23 @@
+/* make each image same size */
+
+/* public/css/projects.css */
+
+.card-img-custom {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+
+  /* Adjust all the card to the same size */
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
