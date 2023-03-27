@@ -1,0 +1,7 @@
+ If you need to make changes to your app, simply commit the changes to your Git repository and push them to Heroku using git push heroku master.
+
+
+
+git add [The file changed]
+git commit -m "Add Heroku configuration"
+git push heroku main
