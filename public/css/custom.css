@@ -48,3 +48,25 @@
   box-sizing: border-box;
 }
 
+.make-bold{
+  font-size:larger;
+  font-weight: 900;
+}
+
+.astreik-color{
+  color: red
+}
+
+/* make the icon different color when hover */
+.social-icon {
+  color: #333; /* Change this to your desired color */
+  font-size: 1.5rem;
+}
+
+.social-icon:hover {
+  color: #666; /* Change this to your desired hover color */
+  text-decoration: none;
+}
+
+
+
