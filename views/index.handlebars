@@ -2,9 +2,6 @@
 <!-- Your page-specific content goes here -->
 <!-- Hero Section -->
 
-
-
-
   <main id="main">
   <!-- Header -->
   <div class="container py-5">
@@ -15,8 +12,8 @@
       <div class="border border-6 border-light w-25 my-4"></div>
     </div>
     <div class="col-lg-10 col-xxl-8">
-      <p class="font-serif lead mb-4 text-light fade-in-right" style="animation-delay: 1.5s;">York U student and aspiring web/software developer. Discover my projects and let's innovate together!</p>
-      <a href="/file/dummyResume.pdf" class="btn btn-primary fade-in-right" style="animation-delay: 2s;" target="_blank">My Resume</a>
+      <p class="font-serif lead mb-4 text-light fade-in-right" style="animation-delay: 1.5s;">Seneca grad and aspiring web/software developer. Discover my projects and let's innovate together!</p>
+      <a href="/file/Resume.pdf" class="btn btn-primary fade-in-right" style="animation-delay: 2s;" target="_blank">My Resume</a>
     </div>
   </div>
 
@@ -81,13 +78,50 @@
     </div>
   </div>
 
-  
 
-  <!-- Accordion -->
+<!-- certificate section -->
+  <div class="bg-white text-black">
+    <div class="container py-5 py-md-6">
+      <h2 class="text-center mb-5">Certificates &nbsp;<i class="fa-solid fa-certificate fa-beat fa-xl"></i></h2>
+      <div class="row gy-4">
+        <div class="col-md">
+          <a href="https://www.linkedin.com/learning/certificates/852c6398b8c10a182f2bbb5112382fbba7ab76760b31096354efef7dccf5d8bd" target="_blank">
+          <blockquote class="text-center">
+            <figure class="img-overlay mb-3">
+              <img src="../images/linkedinCert.png" alt="Certificate 1" class="img-fluid">
+              <div class="img-hover">
+                <div class="img-text">View Cert</div>
+              </div>
+            </figure>
+            <cite class="d-block h5 fst-normal mb-1">Programming Foundations:Fundamentals</cite>
+            <span class="small text-muted text-uppercase">Linkedin LEARNING</span>
+          </blockquote>
+          </a>
+        </div>
+        <div class="col-md">
+          <a href="https://www.linkedin.com/learning/certificates/0ed225b9f3d930e5bb52e3d4007868ab2f804ef2240700fc9a663c3eba77f5d1" target="_blank">
+          <blockquote class="text-center">
+            <figure class="img-overlay mb-3">
+              <img src="../images/linkedinCert2.png" alt="Certificate 2" class="img-fluid">
+              <div class="img-hover">
+                <div class="img-text">View Cert</div>
+              </div>
+            </figure>
+            <cite class="d-block h5 fst-normal mb-1">Learning Full-Stack JavaScript Development: MongoDB, Node, and React</cite>
+            <span class="small text-muted text-uppercase">Linkedin LEARNING</span>
+          </blockquote>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-->
+
+    <!-- Accordion -->
   <div class="container py-5 py-md-6">
     <div class="row justify-content-center">
       <div class="col-lg-10 col-xxl-8">
-        <h2 class="text-center mb-5">FAQs About Me</h2>
+        <h2 class="text-center mb-5">FAQs About Me &nbsp;<i class="fa-solid fa-circle-question fa-beat fa-xl"></i></h2>
         <div class="accordion" id="accordionFaq">
           <div class="accordion-item">
             <h3 class="accordion-header" id="headingOne">
@@ -166,13 +200,13 @@
   </div>
 </div>
 
-  <!-- Pricing cards -->
+  <!-- Contact front page -->
   <div class="bg-white text-black">
     <div class="container py-5 py-md-6">
       <h2 class="text-center mb-5">Contact me right away &nbsp;<i class="fa-solid fa-phone-volume fa-beat fa-xl"></i></h2>
       <div class="row gy-4">
         <div class="col-md">
-          <a href="https://www.linkedin.com/in/alex-lai-10378522/" target="_blank">
+          <a href="https://www.linkedin.com/in/alex-lai-103785222/" target="_blank">
           <div class="card text-center">
             <div class="card-header bg-light border-bottom-0 py-4">
               <h3 class="fw-normal mb-2">Linkedin <i class="fa-brands fa-linkedin fa-beat fa-lg2 faHover"></i></h3>
@@ -246,6 +280,8 @@
       </div>
     </div>
   </div>
+
+  {{> footer}}
 
   {{!-- <!-- Call to action -->
   <div class="bg-primary text-dark text-center">

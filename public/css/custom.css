@@ -22,6 +22,7 @@
   }
 }
 
+/* Opening fade-in animation */
 .fade-in-right {
   animation-name: fadeInRight;
   animation-duration: 1s;
@@ -53,11 +54,13 @@
   font-weight: 900;
 }
 
+
+/* Change the form asterik color */
 .astreik-color{
   color: red
 }
 
-/* make the icon different color when hover */
+/* make the icon different color when hover (only used in sidebar) */
 .social-icon {
   color: #333; /* Change this to your desired color */
   font-size: 1.5rem;
@@ -66,6 +69,15 @@
 .social-icon:hover {
   color: #666; /* Change this to your desired hover color */
   text-decoration: none;
+}
+
+.sidebar{
+  background-color: white;
+  z-index: 9999; /* make sure the sidebar always on top of anything */
+}
+
+.icon-size{
+  font-size: 1rem;
 }
 
 
