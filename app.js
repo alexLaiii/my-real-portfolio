@@ -48,6 +48,11 @@ app.get("/contact", (req, res) => {
   res.render("contact");
 });
 
+// Google verification
+app.get("/google05603c704b0a63a2.html", (req, res) => {
+  res.sendFile(__dirname + "/google05603c704b0a63a2.html");
+});
+
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
