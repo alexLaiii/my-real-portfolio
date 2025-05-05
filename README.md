@@ -1,2 +1,2 @@
 # my-real-portfolio
-Portfolio Link: [https://alexlai-portfolio.herokuapp.com/](https://alex-portfolio-ca.herokuapp.com/projects)
+Portfolio Link: [https://alex-portfolio.herokuapp.com/](https://alex-portfolio-ca.herokuapp.com/projects)
